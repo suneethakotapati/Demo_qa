@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="hii">
+    <test name="hello">
+        <groups>
+            <run>
+                <include name="include suni"></include>
+                <include name="include subbu"></include>
+                <exclude name="exclude madhu"></exclude>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.practise5.groups1"></class>
+        </classes>
+    </test>
+
+</suite>

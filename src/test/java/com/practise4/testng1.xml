@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="happynest">
+    <test name="Car_Loan">
+        <classes>
+            <class name="com.practise4.Car_loan"></class>
+
+        </classes>
+    </test>
+    <test name="Home_loan">
+        <classes>
+            <class name="com.practise4.Home_loan"></class>
+        </classes>
+    </test>
+    <test name="Personal_loan">
+        <classes>
+            <class name="com.practise4.Personal_loan"></class>
+        </classes>
+        
+    </test>
+</suite>

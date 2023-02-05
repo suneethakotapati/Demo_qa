@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="happynest">
+    <test verbose="2" preserve-order="true"  name="personal loan">
+        <classes>
+            <class name="com.practise3.test">
+            <methods>
+                <include name="W.*"></include>
+            </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="loan_department">
+
+    <test verbose="2" preserve-order="true"
+          name="Personal_loan">
+        <classes>
+            <class name="com.practise1.module1">
+                <methods>
+                    <include name="test"/>
+                    <include name="test2"/>
+                </methods>
+            </class>
+
+
+        </classes>
+    </test>
+</suite>
